@@ -1,7 +1,8 @@
 # board_svelte_fastapi
 
 ## 데모 게시판 
-svelte, fastapi, python, javascript, node
+fastapi, svelte, postgres, docker 를 활용한 게시판
+
 
 ---
 
@@ -14,4 +15,9 @@ uvicorn main:app --reload
 ```
 cd frontend
 npm run dev
+```
+
+## docker
+```
+docker-compose up --build
 ```
