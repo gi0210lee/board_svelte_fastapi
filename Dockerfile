@@ -4,6 +4,8 @@ RUN mkdir /back
 WORKDIR /back
 ADD . /back
 
+RUN apk upgrade && apk add bash
+RUN apk add postgresql-client
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
