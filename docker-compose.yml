@@ -28,7 +28,7 @@ services:
     build: ./frontend/
     command: npm run dev -- --host
     volumes:
-      - ./front/:/fornt
+      - ./frontend/:/fornt
     env_file:
       - .env
     ports:
